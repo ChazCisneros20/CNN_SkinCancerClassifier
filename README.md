@@ -2,18 +2,18 @@
 
 ![Skin lesion analysis preview](cnn_skincancerDetectionImage.png)
 
-This project shows a simple but strong example of my ability to build and understand a CNN from the ground up. I worked through the full process of image classification for skin cancer detection, from convolution-style feature extraction to the final prediction.
+This repository contains a notebook-based implementation of a Convolutional Neural Network built from scratch for skin lesion classification. It describes the full model pipeline: image preprocessing, convolution-style feature extraction, pooling, and a Scikit-Learn MLP-based classifier for binary prediction of lesions as benign or cancerous.
 
 ## What this project shows
 
-I coded the core convolution-related modules myself, which demonstrates that I understand how CNNs work at a fundamental level rather than just using them as a black box. The project covers the full pipeline:
+The notebook demonstrates how core convolution-style modules can be implemented directly and how they contribute to a full CNN workflow. The project covers the complete pipeline:
 
-- building the convolution-style modules myself
-- learning how image features are extracted and reduced
-- connecting those features into a neural network
-- using the model for final binary classification
+- building custom convolution-style modules
+- extracting and reducing image features
+- combining learned features into a neural classifier
+- performing binary classification on skin lesion images
 
-This is especially useful for showing that I can work with CNN concepts from the module level all the way to the final model output.
+The result is a transparent example of a CNN-style image classification pipeline from input images to final predictions.
 
 ## Why this is a strong project
 
@@ -38,6 +38,17 @@ The goal of this project is to classify skin lesion images as either benign or c
 
 - [ProjectFinalDraft.ipynb](ProjectFinalDraft.ipynb) — main notebook with the full workflow
 - [cnn_skincancerDetectionImage.png](cnn_skincancerDetectionImage.png) — project preview image
+
+## Documentation
+
+The notebook documents the full model development process, including:
+
+- dataset exploration and preprocessing
+- custom convolution-style module implementation
+- training and evaluation of the classification model
+- performance analysis and visualizations
+
+Read the notebook to see the step-by-step approach, code explanations, and results.
 
 ## How to run
 
